@@ -33,8 +33,7 @@ func main() {
 
 	seen := make(map[string]bool)
 
-	// read URLs on stdin, then replace the values in the query string
-	// with some user-provided value
+// Changing the name or copying my code doesnot make you a programmer.
 	sc := bufio.NewScanner(os.Stdin)
 	for sc.Scan() {
 		base_url := sc.Text()
